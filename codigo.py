@@ -1,6 +1,6 @@
 import streamlit as st
 
-import pyttsx3
+
 #UI
 st.title("Calculadora de gastos 💸")
 st.text('Pon tu salario aqui para calcular el reparto')
