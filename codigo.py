@@ -25,9 +25,7 @@ if st.button('Calcular reparto 💰'):
         with col3:
             st.metric("Snacks 🍿", f"{SNACKS:.2f}€")
         mensaje = f"Has ganado {DINERO:.2f} euros este mes. Deberías ahorrar {AHORROS:.2f}, gastar {COMIDA:.2f} en comida y {SNACKS:.2f} en snacks."
-        engine = pyttsx3.init()
-        engine.say(mensaje)
-        engine.runAndWait()
+      
 
 
 
