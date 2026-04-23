@@ -12,9 +12,9 @@ if st.button('Calcular reparto 💰'):
     if DINERO == 0:
         st.warning("Introduce un ingreso válido ⚠️")
     else:
-        AHORROS = DINERO * 0.20
+        AHORROS = DINERO * 0.10
         COMIDA = DINERO * 0.70
-        SNACKS = DINERO * 0.10
+        SNACKS = DINERO * 0.20
 
         st.divider()
         st.subheader('📊 Reparto de gastos')
